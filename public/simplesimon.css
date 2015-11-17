@@ -1,0 +1,123 @@
+.color-btn {
+    background-color: white; /* greenish */
+    height: 300px;
+    width: 300px;
+    margin:20px;
+    float:left;
+    outline:none;
+    border: 1px groove;
+    border-radius: 50%;
+    opacity:.4;
+}
+ 
+.start-btn {
+    background-color: white; /* greenish */
+    height: 170px;
+    width: 170px;
+    position: relative;
+    border-radius: 50%;
+}
+.score {
+	position:absolute;
+	border-radius: 50%;
+	background-color: black;
+	color:white;
+	font-size: 50px;
+	text-align: center;
+	width:150px;
+	height:150px;
+	top:316px;
+	left:315px;
+
+}
+.container {
+	background-color: black;
+	height:800px;
+	width:800px;
+	border: 5px solid;
+	border-radius: 50%;
+	position: absolute;
+	left:200px;
+	top:10px;
+}
+.replay-btn {
+	position:absolute;
+	height:50px;
+	width:70px;
+	left:360px;
+	background-color: black;
+	color: white;
+	border-radius: 50%;
+}
+#red {
+	background-image: url(/img/redpoke.png);
+	background-size:300px;
+	background-color: red;
+	border-radius: 50%;
+	position: relative;
+	left:50px;
+	bottom:-50px;
+}
+ #red:hover {
+ 	background-image: url(/img/redpoke1.jpg);
+ 	background-size: 300px;
+ 	background-repeat:no-repeat;
+ 	background-color: red;
+ 	background-position: center;
+
+ }
+#blue {
+	background-image: url(/img/bluepoke.png);
+	background-size:390px;
+	background-position: center;
+	background-color: blue;
+	position: relative;
+	left:71px;
+	bottom:-48px;
+}
+#blue:hover {
+	background-image: url(/img/bluepoke1.png);
+	background-size:280px;
+	background-repeat: no-repeat;
+}
+ #start {
+	background-color: blue;
+	color:white;
+	font-size:200%;
+	position: absolute;
+	background: black;
+	border-radius: 50%;
+	left:310px;
+	bottom:315px;
+}
+#black {
+	background-image: url(/img/teamball.png);
+	background-size:380px;
+	background-color: white;
+	background-position: center;
+	position: relative;
+	border-color: purple;
+	border-radius: 50%;
+	left:35px;
+	bottom:-55px;
+}
+#black:hover {
+	background-image: url(/img/poke2.jpg);
+	background-size:300px;
+	background-repeat: no-repeat;
+}
+#yellow {
+	background-image: url(/img/yellowpoke.png);
+	background-size:300px;
+	background-position: center;
+	background-color: yellow;
+	position: relative;
+	border-radius: 50%;
+	left:80px;
+	bottom:-55px;
+}
+#yellow:hover {
+	background-image: url(/img/yellowpoke1.jpg);
+	background-size:250px;
+	background-repeat: no-repeat;
+}
